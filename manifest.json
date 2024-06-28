@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Delivery Entregador",
+  "version": "1.0",
+  "description": "Ferramentas para ajudar o entregador do ifood e quero delivery",
+  "permissions": ["tabs", "activeTab", "storage", "scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gestordepedidos.ifood.com.br/*",
+        "https://parceiros.quero.io/pedidos"
+      ],
+      "js": ["src/script.js"],
+      "css": ["src/style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["images/light-buld.png", "images/whatsapp.png"]
+    }
+  ]
+}

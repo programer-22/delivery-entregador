@@ -1,0 +1,6 @@
+.generate-button {
+  position: fixed;
+  bottom: 100px;
+  left: 50px;
+  z-index: 99999;
+}
