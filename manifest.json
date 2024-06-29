@@ -17,7 +17,7 @@
   "web_accessible_resources": [
     {
       "matches": ["<all_urls>"],
-      "resources": ["images/light-buld.png", "images/whatsapp.png"]
+      "resources": ["/images/*"]
     }
   ]
 }
