@@ -1,6 +1,14 @@
 .generate-button {
   position: fixed;
-  bottom: 100px;
+  bottom: 80px;
   left: 50px;
   z-index: 99999;
+  width: 75px;
+  height: 75px;
+}
+
+.generate-button img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
