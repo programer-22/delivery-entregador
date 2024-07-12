@@ -8,7 +8,7 @@
     {
       "matches": [
         "https://gestordepedidos.ifood.com.br/*",
-        "https://parceiros.quero.io/pedidos"
+        "https://parceiros.quero.io/*"
       ],
       "js": ["src/script.js"],
       "css": ["src/style.css"]
